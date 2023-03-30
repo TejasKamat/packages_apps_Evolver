@@ -36,6 +36,13 @@
         android:key="spoof_category"
         android:title="@string/spoof_title">
 
+        <!-- Unlimited Photos storage -->
+        <com.evolution.settings.preference.SystemPropertySwitchPreference
+            android:key="persist.sys.pixelprops.gphotos"
+            android:title="@string/photos_spoof_title"
+            android:summary="@string/photos_spoof_summary"
+            android:defaultValue="true" />
+
         <!-- Unlock FPS for specific games -->
         <com.evolution.settings.preference.SystemPropertySwitchPreference
             android:key="persist.sys.pixelprops.games"
